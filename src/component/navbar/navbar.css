@@ -1,0 +1,21 @@
+.inactive {
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  color: #ffb700;
+  text-decoration: none;
+}
+.active,
+.inactive,
+.inactive:hover,
+.active:hover,
+.inactive:focus,
+.active:focus {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
